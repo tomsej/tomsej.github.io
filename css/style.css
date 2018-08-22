@@ -13,7 +13,7 @@
 body {
   background     : #0015c6;
   font-family    : 'Playfair Display', sans-serif;
-  font-size      : 3.8em;
+  font-size      : 60px;
   font-weight    : 700;
   text-decoration: none;
 }
@@ -73,6 +73,11 @@ body {
   margin-bottom: 10px;
   color        : #ffffff;
   text-shadow  : 0 5px 3px rgba(4, 42, 173, 0.5), 0 -2px 1px rgba(4, 42, 173, 0.5);
+}
+@media (max-width: 414px) {
+  .contact main section .content {
+    font-size: 40px;
+  }
 }
 .contact main section .content p {
   font-size     : 0.35em;
@@ -248,9 +253,10 @@ body {
   float             : left;
   width             : 100%;
   margin-top        : 18px;
-  background-color  : #ffffff;
+  background-color  : #0015c6;
   padding           : 18px 20px;
   border-radius     : 5px;
+  border            : 2px solid #05feb3;
   text-decoration   : none;
   -webkit-transition: all 0.3s;
   -moz-transition   : all 0.3s;
@@ -283,22 +289,22 @@ body {
   fill: #e6e6e6;
 }
 .contact nav a.gmail .icon svg {
-  background-color: #d14836;
+  background-color: #05feb3;
 }
 .contact nav a.gmail .content h1 {
-  color: #d14836;
+  color: #05feb3;
 }
 .contact nav a.telegram .icon svg {
-  background-color: #47b0d3;
+  background-color: #05feb3;
 }
 .contact nav a.telegram .content h1 {
-  color: #47b0d3;
+  color: #05feb3;
 }
 .contact nav a.twitter .icon svg {
-  background-color: #1da1f2;
+  background-color: #05feb3;
 }
 .contact nav a.twitter .content h1 {
-  color: #1da1f2;
+  color: #05feb3;
 }
 .contact nav a .icon {
   float        : left;
@@ -324,7 +330,8 @@ body {
 }
 .contact nav a .content span {
   font-size     : 14px;
-  color         : #b3b3b3;
+  font-weight   : normal;
+  color         : #ffffff;
   display       : block;
   letter-spacing: .4px;
 }
